@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Credenciais e configurações privadas
+.env
+.env.*
+!.env.example
+
+# Dados locais
+dados/*
+!dados/.gitkeep
+
+# Backups de bancos de dados
+*.dump
+*.backup
+
+# Configurações locais do VS Code
+.vscode/
